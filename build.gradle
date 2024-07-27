@@ -18,11 +18,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
     testImplementation 'com.codeborne:selenide:6.17.2'
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
-    testCompileOnly 'org.progectlombok:lombok:1.18.24'
-    testAnnotationProcessor 'org.progectlombok:lombok:1.18.24'
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
     testRuntimeOnly 'slf4j:slf4j-simple:2.0.3'
-
-
 
 }
 
